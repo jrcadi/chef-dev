@@ -4,8 +4,10 @@
   	"recipe[apache]",
   	"recipe[mysql]",
   	"recipe[jenkins]",
-  	"recipe[vim]"
-  ],
+  	"recipe[vim]",
+  	"recipe[yumsetup]"
+],
+  	
   "automatic": {
     "ipaddress": "webdb"
   }
